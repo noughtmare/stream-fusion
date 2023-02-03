@@ -19,19 +19,21 @@ The abstract from the original paper by Duncan Coutts and Don Stewart:
 > the number of occurrences of fusion in typical Haskell programs. We
 > present benchmarks documenting time and space improvements.
 
-Building:
+## Building:
 
 ```bash
 $ cabal build
 ```
 
-Use:
+## Use:
 
 ```haskell
 import Data.List.Stream
 ```
 
 and use as you would for normal lists.
+
+## This repository
 
 This repository is part of a renewed effort to get stream fusion into base.
 One of the main thresholds was the ability to fuse the 'concatMap' function.
