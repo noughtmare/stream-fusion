@@ -21,11 +21,15 @@ The abstract from the original paper by Duncan Coutts and Don Stewart:
 
 Building:
 
-  $ cabal build
+```bash
+$ cabal build
+```
 
 Use:
 
-  import Data.List.Stream
+```haskell
+import Data.List.Stream
+```
 
 and use as you would for normal lists.
 
