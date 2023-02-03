@@ -1,0 +1,9 @@
+packages: .
+
+with-compiler: ghc-9.7.1
+
+benchmarks: True
+
+allow-newer: base, template-haskell
+
+optimization: True
